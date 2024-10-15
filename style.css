@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #0f9d58;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+.portfolio {
+    padding: 20px;
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.course-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 220px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effect */
+    cursor: pointer; /* Cursor change on hover */
+}
+
+.course-card:hover {
+    transform: translateY(-10px); /* Lift effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+}
+
+.course-header {
+    background-color: #28a745;
+    color: white;
+    font-size: 24px;
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+}
+
+.mini-header {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 14px;
+    color: #555;
+}
